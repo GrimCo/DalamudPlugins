@@ -8,7 +8,7 @@ jobs:
   generate:
     name: Regenerate PluginMaster
     if: github.repository == 'Ranzer1255/DalamudPlugins'
-    runs-on: windows-2019
+    runs-on: windows-latest
     steps:
       - name: Extract branch name
         shell: bash
