@@ -3,13 +3,6 @@ on:
   push:
     branches:
       - master
-  page_build:
-  workflow_run:
-    workflows: ["Update download counts"]
-    types: 
-      - completed
-  workflow_dispatch:
-concurrency: regenerate
 
 jobs:
   generate:
@@ -35,8 +28,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ steps.extract_branch.outputs.branch }}
-      - name: Clear Web Services cache
-        run: curl -X POST --fail https://kamori.goats.dev/Plugin/ClearCache?key=$env:CACHE_CLEAR_KEY
-        env:
-          CACHE_CLEAR_KEY: ${{ secrets.CACHE_CLEAR_KEY }}
+          branch: ${{ steps.extract_branch.outputs.branch }}   
