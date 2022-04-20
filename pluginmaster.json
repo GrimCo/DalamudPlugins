@@ -15,12 +15,12 @@
         ],
         "DalamudApiLevel": 6,
         "IconUrl": "https://i.loli.net/2021/09/09/L1fkrwElUKYMtN3.png",
-        "DownloadLinkInstall": "https://github.com/Ranzer1255/DalamudPlugins/raw/master/plugins/MidiBard/latest.zip",
+        "DownloadLinkInstall": "https://github.com/GrimCo/DalamudPlugins/raw/master/plugins/MidiBard/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/Ranzer1255/DalamudPlugins/raw/master/plugins/MidiBard/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Ranzer1255/DalamudPlugins/raw/master/plugins/MidiBard/latest.zip",
+        "DownloadLinkTesting": "https://github.com/GrimCo/DalamudPlugins/raw/master/plugins/MidiBard/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/GrimCo/DalamudPlugins/raw/master/plugins/MidiBard/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1650420555"
+        "LastUpdated": "1650425426"
     }
 ]
